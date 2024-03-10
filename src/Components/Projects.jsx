@@ -15,7 +15,7 @@ function Projects() {
                 </div>
                 <p className="text-gray-700 mb-4">It's a responsive website, I built it with html and css, it's very beautiful and eye-catching</p>
 
-                <button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> View Source Code</button>
+                <a href="https://github.com/JacfarMohaz/Hotel-Wepsite"><button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> View Source Code</button></a>
             </div>
 
             {/* two */}
@@ -28,7 +28,10 @@ function Projects() {
                 </div>
                 <p className="text-gray-700 mb-4">This project is just a frontend, but it does a lot of work like I do with React Redux</p>
 
-                <button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> View Source Code</button>
+                <div className="flex">
+                    <a href="https://github.com/JacfarMohaz/E-Commertce-React-Js"><button className="bg-[#e9bf69] px-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> Code</button></a>
+                    <a href="https://e-commerce-web-peach.vercel.app/"><button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-solid fa-rocket"></i> Live</button></a>
+                </div>
 
             </div>
 
@@ -43,8 +46,8 @@ function Projects() {
                 <p className="text-gray-700 mb-4">This project is full-stack and has two parts: a public part (website) and a private part (dashboard) which works as a blood bank management system.</p>
 
                 <div className="flex">
-                    <button className="bg-[#e9bf69] px-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> Code</button>
-                    <button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-solid fa-rocket"></i> Live</button>
+                    <a href="https://github.com/JacfarMohaz/frontend"><button className="bg-[#e9bf69] px-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-brands fa-github"></i> Code</button></a>
+                    <a href="https://blood-bank-black.vercel.app/"><button className="bg-[#e9bf69] px-8 ml-8 mt-3 py-2 rounded-lg font-semibold"><i class="fa-solid fa-rocket"></i> Live</button></a>
                 </div>
 
             </div>
