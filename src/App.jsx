@@ -1,21 +1,12 @@
-import About from "./Components/About"
-import Chalenges from "./Components/Chalenges"
-import Contacts from "./Components/Contacts"
-import Header from "./Components/Header"
-import Projects from "./Components/Projects"
-import Showcase from "./Components/Showcase"
-import TechStack from "./Components/TechStack"
+import { Routes, Route} from "react-router-dom"
+import Home from "./Pages/Home"
+import Resume from "./Pages/Resume"
 
 function App() {
-  return <div>
-    <Header />
-    <Showcase />
-    <About />
-    <Projects />
-    <Chalenges />
-    <TechStack />
-    <Contacts />
-  </div>
+  return <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/resume" element={<Resume />} />
+  </Routes>
 }
 
 export default App
