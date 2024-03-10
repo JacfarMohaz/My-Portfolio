@@ -3,7 +3,7 @@ import projectTwo from "../assets/project two.png"
 import projectThree from "../assets/project three.png"
 
 function Projects() {
-    return <div>
+    return <div id="projects">
         <h1 className="text-4xl text-[#b17940] font-bold text-center mt-10 md:mb-5 mb-10">Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 gap-10 mt-10 md:pl-0 pl-10">
             <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] md:ml-28">

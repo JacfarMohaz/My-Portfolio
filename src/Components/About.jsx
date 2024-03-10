@@ -1,7 +1,7 @@
 import jm9withCode from "../assets/jm9with code.jpg"
 
 function About() {
-    return <div>
+    return <div id="about">
         <h1 className="text-4xl text-[#b17940] font-bold text-center mt-10 md:mb-5 mb-10">About</h1>
         <div className="sm:flex justify-around">
             <div className="sm:pl-10 pl-10">
@@ -20,18 +20,21 @@ function About() {
 
                 <div>
                     <div className="flex gap-5 pl-14 pt-3 pb-10">
-                        <div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
+                        <a href="https://github.com/JacfarMohaz"><div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
                             <i class="fa-brands text-4xl  pl-1 pt-1 fa-github"></i>
-                        </div>
-                        <div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
+                        </div></a>
+
+                        <a href="mailto:jacfarmahamed77@gmail.com"><div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
                             <i class="fa-solid text-3xl pl-2 pt-1 fa-envelope"></i>
-                        </div>
-                        <div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
+                        </div></a>
+
+                        <a href="https://www.linkedin.com/in/abdullahi-mohamed-yusuf-jacfar-24320b1b8/"><div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
                             <i class="fa-brands text-3xl pl-2 pt-1 fa-linkedin"></i>
-                        </div>
-                        <div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
+                        </div></a>
+
+                        <a href="https://www.instagram.com/iamjacfar_mohaz/"><div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
                             <i class="fa-brands text-3xl pl-2 pt-1 fa-instagram"></i>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             </div>
