@@ -1,5 +1,6 @@
 import About from "./Components/About"
 import Chalenges from "./Components/Chalenges"
+import Contacts from "./Components/Contacts"
 import Header from "./Components/Header"
 import Projects from "./Components/Projects"
 import Showcase from "./Components/Showcase"
@@ -13,6 +14,7 @@ function App() {
     <Projects />
     <Chalenges />
     <TechStack />
+    <Contacts />
   </div>
 }
 
