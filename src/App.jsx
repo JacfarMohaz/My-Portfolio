@@ -3,6 +3,7 @@ import Chalenges from "./Components/Chalenges"
 import Header from "./Components/Header"
 import Projects from "./Components/Projects"
 import Showcase from "./Components/Showcase"
+import TechStack from "./Components/TechStack"
 
 function App() {
   return <div>
@@ -11,6 +12,7 @@ function App() {
     <About />
     <Projects />
     <Chalenges />
+    <TechStack />
   </div>
 }
 
