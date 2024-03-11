@@ -21,7 +21,7 @@ function Resume() {
                         <h1 className="text-sm">+252618704206</h1>
                     </div>
 
-                    <div className="flex pt-5 gap-2 pl-2">
+                    <div className="flex pt-5 gap-2 pl-2 pr-5">
                         <i class="fa-regular fa-envelope"></i>
                         <h1 className="text-xs">jacfarmahamed77@gmail.com</h1>
                     </div>

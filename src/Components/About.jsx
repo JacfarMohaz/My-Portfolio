@@ -3,15 +3,15 @@ import jm9withCode from "../assets/jm9with code.jpg"
 function About() {
     return <div id="about">
         <h1 className="text-4xl text-[#b17940] font-bold text-center mt-10 md:mb-5 mb-10">About</h1>
-        <div className="sm:flex justify-around">
-            <div className="sm:pl-10 pl-10">
+        <div className="sm:flex md:gap-10 justify-around">
+            <div className="pl-10 md:max-[800px]:pt-10">
                 <img className="sm:w-[30em] w-[20em] rounded-xl" src={jm9withCode} />
             </div>
 
             <div className="sm:pr-10 pr-5">
                 <div>
 
-                    <p className="text-xl text-white font-bold mt-10 md:mb-2 mb-5 pl-10 sm:pl-0">I am a full-stack developer with a passion for building dynamic <br />
+                    <p className="sm:text-xl text-md md:max-[800px]:text-[15px] text-white font-bold mt-10 md:mb-2 mb-5 pl-10 sm:pl-0">I am a full-stack developer with a passion for building dynamic <br />
                         and user-friendly web applications. I enjoy working <br />
                         on both the front-end and back-end aspects of web <br />
                         development, allowing me to craft a cohesive <br />
@@ -19,7 +19,7 @@ function About() {
                 </div>
 
                 <div>
-                    <div className="flex gap-5 pl-14 pt-3 pb-10">
+                    <div className="flex gap-5 sm:pl-14 md:max-[800px]:pl-0 pl-10 pt-3 pb-10">
                         <a href="https://github.com/JacfarMohaz"><div className="w-11 h-11 rounded-full bg-[#96572c] text-white hover:bg-[#e9bf69] hover:text-[#b17940]">
                             <i class="fa-brands text-4xl  pl-1 pt-1 fa-github"></i>
                         </div></a>
