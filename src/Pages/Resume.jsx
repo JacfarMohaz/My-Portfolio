@@ -112,7 +112,7 @@ function Resume() {
                     <h1 className="text-2xl pl-2 text-white">Summary</h1>
                 </div>
                 <div className="px-5 pt-2">
-                    <p className="text-sm">I am a highly -skilled expert with a web design, Programming , and project management .
+                    <p className="text-sm">I am a highly-skilled professional with a web design, Programming , and project management .
                         I have great technical abilities , allowing me to work with a diverse group of Cliental.
                         I am looking for new challenges to help me grow and enhance my abilities.</p>
                 </div>
