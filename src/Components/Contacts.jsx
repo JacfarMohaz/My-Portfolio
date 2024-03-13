@@ -7,7 +7,7 @@ function Contacts() {
             <img className="w-60 mt-32 sm:ml-56 md:max-[800px]:ml-10 ml-14" src={jm9Logo} />
         </div>
 
-        <div className="sm:pr-[20em] md:max-[800px]:pr-24 sm:pl-0  pl-16">
+        <div className="sm:pr-[20em] md:max-[800px]:pr-24 sm:pl-0  pl-12">
             <h1 className="text-4xl text-[#b17940] font-bold text-center mt-10 md:mb-5 mb-10">Get in <span className="text-white">Touch</span></h1>
             <div className="bg-[#96572c] w-[20em] h-72 rounded-2xl">
                 <a href="https://github.com/JacfarMohaz"><div className="text-white hover:text-[#e9bf69] flex ml-10 pt-2">
