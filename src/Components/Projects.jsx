@@ -5,8 +5,8 @@ import projectThree from "../assets/project three.png"
 function Projects() {
     return <div id="projects">
         <h1 className="text-4xl text-[#b17940] font-bold text-center mt-10 md:mb-5 mb-10">Projects</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-3 md:max-[800px]:grid-cols-2 sm:gap-4 gap-10 mt-10 sm:pl-0 pl-11">
-            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-28 md:max-[800px]:ml-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:min-[800px]:grid-cols-2 sm:gap-4 gap-10 mt-10 sm:pl-0 pl-11">
+            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-28 md:min-[800px]:ml-10">
                 <img className="w-80" src={projectOne} />
                 <h3 className="text-xl text-center pt-5 font-bold mb-2">Hotel Booking Website</h3>
                 <div className="flex gap-10">
@@ -19,7 +19,7 @@ function Projects() {
             </div>
 
             {/* two */}
-            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-20 md:max-[800px]:ml-4">
+            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-20 md:min-[800px]:ml-4">
                 <img className="w-80" src={projectTwo} />
                 <h3 className="text-xl text-center pt-5 font-bold mb-2">E-commerce Website</h3>
                 <div className="flex gap-10">
@@ -36,7 +36,7 @@ function Projects() {
             </div>
 
             {/* three */}
-            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-10 md:max-[800px]:ml-10">
+            <div className="bg-white p-4 rounded-lg shadow-lg shadow-black w-80 border-4 border-[#e9bf69] sm:ml-10 md:min-[800px]:ml-10">
                 <img className="w-80" src={projectThree} />
                 <h3 className="text-xl text-center pt-5 font-bold mb-2">Full-stack app Blood Bank</h3>
                 <div className="flex gap-10">
