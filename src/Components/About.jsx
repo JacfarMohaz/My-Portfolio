@@ -11,7 +11,7 @@ function About() {
             <div className="sm:pr-10 pr-5">
                 <div>
 
-                    <p className="lg:text-xl text-md md:min-[800px]:text-[15px] text-white font-bold mt-10 md:mb-2 mb-5 pl-10 sm:pl-0">I am a full-stack developer with a passion for building dynamic <br />
+                    <p className="lg:text-xl text-md md:min-[800px]:text-[15px] text-white font-bold mt-10 md:mb-2 mb-5 pl-10 sm:pl-5">I am a full-stack developer with a passion for building dynamic <br />
                         and user-friendly web applications. I enjoy working <br />
                         on both the front-end and back-end aspects of web <br />
                         development, allowing me to craft a cohesive <br />
