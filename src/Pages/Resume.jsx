@@ -115,7 +115,7 @@ function Resume() {
                     <p className="text-sm">A highly motivated and skilled Computer Science graduate with expertise in full-stack development seeking opportunities to contribute my knowledge and skills in a dynamic and innovative environment.</p>
                 </div>
                 
-                {/* summary */}
+                {/* Experience */}
                 <div className="bg-[#96572c] mt-8">
                     <h1 className="text-2xl pl-2 text-white">Experience</h1>
                 </div>
