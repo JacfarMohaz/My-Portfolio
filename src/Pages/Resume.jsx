@@ -18,18 +18,18 @@ function Resume() {
 
                     <div className="flex pt-5 gap-2 pl-2">
                         <i class="fa-solid  fa-phone"></i>
-                        <h1 className="text-sm">+252618704206</h1>
+                        <a href="https://wa.me/252618704206"><h1 className="text-sm">+252618704206</h1></a>
                     </div>
 
                     <div className="flex pt-5 gap-2 pl-2 pr-5">
                         <i class="fa-regular fa-envelope"></i>
-                        <h1 className="text-xs">jacfarmahamed77@gmail.com</h1>
+                        <a href="mailto:jacfarmahamed77@gmail.com"><h1 className="text-xs">jacfarmahamed77@gmail.com</h1></a>
                     </div>
                 </div>
 
                 {/* skills */}
                 <div className="text-white">
-                    <h1 className="text-2xl font-semibold pt-6 pl-4">Skills</h1>
+                    <h1 className="text-2xl font-semibold pt-10 pl-4">Skills</h1>
                     <div className="pt-4 pl-2">
                         <h1 className="text-xl pl-4 font-semibold">HTML</h1>
                         <div className="bg-gray-500 rounded-full sm:w-40 w-36 h-1.5">
@@ -75,7 +75,7 @@ function Resume() {
 
                 {/* langues */}
                 <div className="text-white">
-                    <h1 className="text-2xl font-semibold pt-6 pl-4">Langues</h1>
+                    <h1 className="text-2xl font-semibold pt-16 pl-4">Langues</h1>
 
                     <div className="pt-4 pl-2">
                         <h1 className="text-xl pl-4 font-semibold">Somali</h1>
@@ -112,9 +112,16 @@ function Resume() {
                     <h1 className="text-2xl pl-2 text-white">Summary</h1>
                 </div>
                 <div className="px-5 pt-2">
-                    <p className="text-sm">I am a highly-skilled professional with a web design, Programming , and project management .
-                        I have great technical abilities , allowing me to work with a diverse group of Cliental.
-                        I am looking for new challenges to help me grow and enhance my abilities.</p>
+                    <p className="text-sm">A highly motivated and skilled Computer Science graduate with expertise in full-stack development seeking opportunities to contribute my knowledge and skills in a dynamic and innovative environment.</p>
+                </div>
+                
+                {/* summary */}
+                <div className="bg-[#96572c] mt-8">
+                    <h1 className="text-2xl pl-2 text-white">Experience</h1>
+                </div>
+                <div className="px-5 pt-2">
+                    <h1 className="font-semibold pb-2">Blood Banking Management System</h1>
+                    <p className="text-sm">I built a full-stack blood banking project, the project has two parts, a website part and an Admin dashboard part, and I built it with Mern Stack.</p>
                 </div>
 
                 {/* education */}

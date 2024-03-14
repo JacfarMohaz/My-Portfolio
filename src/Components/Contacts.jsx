@@ -20,7 +20,7 @@ function Contacts() {
                     <h1 className="pl-4 pt-4">jacfarmahamed77@gmail.com</h1>
                 </div></a>
 
-                <a href="tel:+252618704206"><div className="text-white hover:text-[#e9bf69] flex ml-10 pt-2">
+                <a href="https://wa.me/252618704206"><div className="text-white hover:text-[#e9bf69] flex ml-10 pt-2">
                     <i class="fa-brands text-4xl pt-2 fa-whatsapp"></i>
                     <h1 className="pl-4 pt-4">+252618704206</h1>
                 </div></a>
