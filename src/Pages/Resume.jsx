@@ -2,9 +2,9 @@ import abdulahi from "../assets/abdulahi.jpg"
 
 function Resume() {
     return <div className="">
-        <div className="sm:w-[45%] sm:h-[60em] bg-white sm:ml-[30%] flex">
+        <div className="lg:w-[45%] lg:h-[60em] bg-white lg:ml-[30%] flex">
             <div className="bg-[#96572c] sm:h-[60em] w-[42%]">
-                <div className="pt-4 pl-14">
+                <div className="pt-4 pl-8">
                     <img className="rounded-full w-24 h-24" src={abdulahi} />
                 </div>
 
@@ -112,7 +112,7 @@ function Resume() {
                     <h1 className="text-2xl pl-2 text-white">Summary</h1>
                 </div>
                 <div className="px-5 pt-2">
-                    <p className="text-sm">A highly motivated and skilled Computer Science graduate with expertise in full-stack development seeking opportunities to contribute my knowledge and skills in a dynamic and innovative environment.</p>
+                    <p className="text-sm">A highly motivated and skilled Computer Science graduate with professional in full-stack development seeking opportunities to contribute my knowledge and skills in a dynamic and innovative environment.</p>
                 </div>
                 
                 {/* Experience */}
